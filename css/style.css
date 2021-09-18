@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.836),white);
+    background-repeat:repeat;
+    background-size: cover;
+    /**flex-direction: column;**/
+   
+  
+  
+}
+a:hover{color: rgb(243, 240, 235); font-family: arial; text-decoration: none }
+a:visited{color:white; font-family: arial; text-decoration: none }
+a:link{ text-decoration: none; transition: all 5.0s;}
+/*css-home*/
+
+.navbar { 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Style Script', cursive;
+    font-size: 30px;
+    color: white;
+    background-image: url(../img/runnig2.jpg);
+}
+
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+   
+    
+
+}
+   
+/*PORTADA HOME*/
+.portadaHome{
+
+    display: flex;
+    flex-wrap:nowrap ;
+    justify-content: center;
+    align-items:center ;
+    align-content:center;
+    height: 600px;
+    
+}
+.tituloHome{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.portadaHomeimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+}
+.portadaHome{
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1000px;
+    background-color: grey;
+    border-radius: 2%;
+    border-style: outset;
+    border-top-style: 60px solid;    
+    border: black;
+    border-style: outset;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Style Script', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    opacity: 97%;
+    
+
+}
+
+.subTituloHome{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Style Script', cursive;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    
+}
+.imgHomeUno{
+    width: 500px;
+    height: auto;
+    float: right;
+    margin: 5%;
+    border-radius: 2%;
+    
+    
+}
+.divHomeDos{
+    margin: 150px 20%;
+    padding: 100px auto;
+    text-decoration-line: underline;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    opacity: 95%;
+    background-size: cover;
+    border-radius: 2%;
+    border-style: outset;
+    border-color: black;
+    
+}
+.divHomeDos img{
+    width: 200px;
+    height: 350px;
+}
+
+.galHome{
+    width: 400px;
+    height: auto;
+    margin: 100px 10px 10px 10px;
+
+}
+.sectionNov{
+    display: flex;
+    flex-direction: row;
+}
+#novedadesHome{
+    height: 500px;
+    width: 500px;
+    margin:20px;
+    padding: 50px ;
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    opacity: 95%;
+    background-size: cover;
+    border-radius: 2%;
+    border-style: outset;
+    border-color: black;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Style Script', cursive; 
+    letter-spacing: 5px;
+    text-decoration: underline black;
+    font-size: 35px;
+
+}    
+#noticiasHome{
+    height: 500px;
+    width: 500px;
+    margin:20px;
+    padding: 50px ;
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    opacity: 95%;
+    background-size: cover;
+    border-radius: 2%;
+    border-style: outset;
+    border-color: black;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Style Script', cursive; 
+    letter-spacing: 5px;
+    text-decoration: underline black;
+    font-size: 35px;
+} 
+#noticiasHome > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    letter-spacing: normal;
+    font-size: 20px;
+} 
+#novedadesHome > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    letter-spacing: normal;
+    font-size: 20px;
+
+} 
+#footerHome{
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    color: white;
+    opacity: 94%;
+    margin: 0%;
+    padding: 10px 15px 10px;
+    background-image: linear-gradient(black,rgb(61, 60, 60), black);
+}
+.Redes{
+    display: grid;
+    grid-column: 1/4;
+    margin: 5px;
+    padding: none;
+    opacity: 95%;
+    text-align: left;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    color: white;
+    background-color: brown;
+}
+.nutricionDepor{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.videoUno{
+    justify-content: center;
+    display: flex;
+}
+.quienSoy{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 60px;
+    background-color: grey;
+    border-radius: 5%;
+    border-style: outset;
+    margin-top: 100px;
+    border-top-style: 60px solid;
+    opacity: 90%;
+}
+.titQuienSoy{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Style Script', cursive;
+    font-size: xx-large;
+    color: rgb(247, 201, 117);
+    letter-spacing: 15px;
+    font-size: 50px;
+    
+}
+.textoQuienSoy{
+    font-family: cursive;
+    font-size: large;
+    color: rgb(247, 201, 117);
+      
+}
+.imgPerfil{
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 5%;
+    border-radius: 5%;
+}
+.formCont{
+    background-color: grey;
+    margin: 200px;
+    padding: auto;
+    opacity: 90%;
+    font-family: sans-serif;
+    color: khaki;
+    width: 450px;
+    height: auto;
+    border: solid;
+    box-shadow: lightcoral;
+}
+#idRecetarios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    text-align: center;
+    align-items:center ;
+    align-content:center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Style Script', cursive;
+    font-size: 40px;
+    color: rgb(247, 201, 117);
+    text-align: center;
+    letter-spacing: 20px;
+    max-width: 1000px;
+    margin:auto;
+    padding:auto;
+    background-color: gray;
+    border-radius: 5px;
+    border-style: outset;
+    
+  }
+
+.ulRecetas{
+    width:90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+.liRecetas{
+    margin:5px;
+    
+}
+.imgRecetas{
+    width: 200px;
+    height: auto;
+}
+.imgRecetas:hover{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: solid black 2px;
+    transform: skewY(10deg);
+}
+.headerCont{
+    display: flex;
+    flex-direction: row;
+}
+#contacto{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Style Script', cursive;
+    font-size: xx-large;
+    color: rgb(84, 95, 99);
+    letter-spacing: 15px;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.formCont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.inicioForm{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 360px) {
+    body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+        column-gap: 2rm;
+        background-size: cover;
+    }
+
+}
+@media (max-width: 768px) {
+    body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+        column-gap: 2rm;
+        background-size:cover ;
+        
+    }
+
+}
+@media (max-width: 768px) {
+    .ulRecetas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+        column-gap: 2rm;
+        background-size: cover;
+    }
+
+}
