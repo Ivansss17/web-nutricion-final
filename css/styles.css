@@ -21,7 +21,7 @@ body {
 }
 
 a:visited {
-  color: white;
+  color: black;
   font-family: arial;
   text-decoration: none;
 }
@@ -31,6 +31,7 @@ a:link {
   border: black;
   -webkit-transition: 1.0s;
   transition: 1.0s;
+  color: black;
 }
 
 /*css-home*/
@@ -72,7 +73,7 @@ a:link {
 }
 
 .footer__Home img {
-  width: 100px;
+  width: 200px;
   height: auto;
 }
 
@@ -111,13 +112,27 @@ a:link {
   height: auto;
 }
 
-.videoUno {
+.section__videos h1 {
+  height: 200px;
+  color: white;
+  font-family: serif;
+  font-size: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: black;
+  margin: 100px 0px 50px;
+}
+
+p.text__section {
+  font-family: serif;
+  font-weight: 600;
 }
 
 .quienSoy {
@@ -201,7 +216,7 @@ a:link {
           align-items: center;
   background-color: black;
   text-align: center;
-  color: blanchedalmond;
+  color: white;
   height: 150px;
   padding: 50px;
   font-family: serif;
@@ -573,7 +588,11 @@ a:visited {
 }
 
 .Home__titulo h1 {
-  font-size: 50px;
+  font-size: 80px;
+}
+
+.Home__titulo p {
+  font-size: 40px;
 }
 
 .Home__portadaimg {

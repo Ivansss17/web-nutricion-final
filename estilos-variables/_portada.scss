@@ -4,9 +4,7 @@
     margin: 200px auto;
     flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;    
 
 }
 .Portada1 h2{
@@ -182,8 +180,11 @@
     padding: 20px;
     
     h1{
-        font-size: 50px;
+        font-size: 80px;
         
+    }
+    p{
+        font-size: 40px;
     }
 }
 .Home__portadaimg{

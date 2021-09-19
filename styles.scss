@@ -17,13 +17,14 @@ body {
     border-radius: 5%;
     box-shadow: 6px 20px 10px black;
  }
-a:visited{color:white;
+a:visited{color:black;
      font-family: arial; 
      text-decoration: none }
 a:link{ 
     text-decoration: none;
     border: black; 
     transition: 1.0s;
+    color: black;
 }
 /*css-home*/
 
@@ -50,7 +51,7 @@ a:link{
 
 
 .footer__Home img{
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 .footer__Home{
@@ -79,14 +80,28 @@ a:link{
     img{
         width: auto;
         height: auto;
+        
     }
     
 
 }
-.videoUno{
+.section__videos h1{
+    height: 200px;
+    color: white;
+    font-family: serif;
+    font-size: 50px;
     justify-content: center;
+    align-items: center;
     display: flex;
+    background-color: black;
+    margin: 100px 0px 50px;
+   
 }
+p.text__section{
+    font-family: serif;
+    font-weight: 600;
+}  
+
 .quienSoy{
     width: 100%;
     max-width: 1000px;
@@ -153,7 +168,7 @@ a:link{
         align-items: center;
         background-color: black;
         text-align: center;
-        color: blanchedalmond;
+        color: white;
         height: 150px;
         padding: 50px;
         font-family: serif;
